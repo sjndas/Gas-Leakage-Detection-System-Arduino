@@ -39,39 +39,8 @@ A gas leakage detection system developed using Arduino and the MQ-2 gas sensor. 
 The MQ-2 sensor continuously measures the concentration of combustible gases and smoke. The Arduino reads the analog output of the sensor and compares it with a predefined threshold value. When the gas concentration exceeds the threshold, the system activates the buzzer and LED and displays a warning message on the LCD. Under normal conditions, the system indicates a safe status.
 
 
-- ## Circuit Connections
 
-### MQ-2 Sensor Connection
-
-![MQ-2 Sensor](images/mq-2 arduino connection.png)
-
-### LCD Connection
-
-![LCD Connection](images/lcd arduino connection.png)
-
-### LED Connection
-
-![LED Connection](images/led arduino connection.png)
-
-### Buzzer Connection
-
-![Buzzer Connection](images/buzzer arduino connection.png)
-
-## Project Output
-
-### Normal Condition
-
-![Normal Condition](images/gas value before threshold level breaks.jpg)
-
-### Gas Detection
-
-![Gas Detected](images/gas detected! cross the threshold value 1.jpg)
-
-### Alarm Condition
-
-![Alarm Condition](images/gas detected! cross the threshold value 2.jpg)
 
 
 ## Author
-
-**Sajindas M**
+Sajindas M
